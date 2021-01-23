@@ -1,5 +1,3 @@
-/* CSS Custom Properties Definitions */
-
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -52,14 +50,27 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
+  /* light theme colors */
+  --color-primary: #d46a6a;
+  --color-text: #333533;
+  --color-text-light: #767676;
+  --color-heading: #333533;
+  --color-heading-black: #333533;
   --color-accent: #d1dce5;
+  --background-color: #f8fcfc;
 }
-
+/* dark theme stuff */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #d46a6a;
+    --color-text: #ffffff;
+    --color-text-light: #aaaaaa;
+    --color-heading: #ffffff;
+    --color-heading-black: #ffffff;
+    --color-accent: #333533;
+    background-color: #282c2c;
+  }
+}
 /* HTML elements */
 
 *,

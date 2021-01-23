@@ -7,6 +7,7 @@ description: lmao
 Bruh.
 ```rust
 fn add(a: i32, b: i32) -> i32 {
+  let _unused = "test";
   a + b
 }
 ```
@@ -28,10 +29,10 @@ a **b**, c [d](https://google.com) e
 
 i
 
-> Somebody once told me the world is gonna roll me
-> I ain't the sharpest tool in the shed
-> she was looking kind of dumb with her finger and her thumb
-> in the shape of an "L" on her forehead
+> Somebody once told me the world is gonna roll me  
+> I ain't the sharpest tool in the shed  
+> she was looking kind of dumb with her finger and her thumb  
+> in the shape of an "L" on her forehead  
 
 lorem ipsum?
 
@@ -46,7 +47,7 @@ never gonna
 5.  say goodbye
 6.  tell a lie and hurt you
 
-> Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don't fel so stupid or insecure,it's not your fault
+> Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don't feel so stupid or insecure,it's not your fault
 
 - Donald J. Trump (@realDonaldTrump) May 9, 2013
 
