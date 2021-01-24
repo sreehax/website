@@ -339,4 +339,7 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+  .site-title {
+    font-weight: normal;
+  }
 }
