@@ -1,12 +1,10 @@
 {
-  "name": "sreehari-sreedev",
+  "name": "ssreedev",
   "private": true,
   "description": "Sreehari's blog",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Sreehari Sreedev <sreehari@ssree.dev>",
-  "bugs": {
-    "url": "https://github.com/sreehax"
-  },
+  "repository": "https://github.com/sreehax/website.git",
   "dependencies": {
     "@fontsource/cascadia-code": "^4.1.0",
     "@fontsource/rubik": "^4.1.0",
@@ -36,17 +34,12 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "homepage": "https://github.com/sreehax/sreehax.github.io",
   "keywords": [
     "blog"
   ],
-  "license": "0BSD",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sreehax/sreehax.github.io.git"
-  },
+  "license": "MIT",
   "scripts": {
+    "develop": "gatsby develop",
     "build": "gatsby build"
   }
 }

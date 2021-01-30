@@ -63,7 +63,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`
-    //`gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: ["*.png"]
+      }
+    }
   ],
 }
